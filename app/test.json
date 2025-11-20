@@ -1,0 +1,9 @@
+{
+    "pgm_name": "ZTEST_RULE101_COMBINED",
+    "inc_name": "ZTEST_RULE101_COMB_INC",
+    "type": "PROG",
+    "name": "MAIN_BLOCK",
+    "start_line": 5,
+    "end_line": 200,
+    "code": "DATA lv_a TYPE string.\nDATA lv_b TYPE string.\nDATA lv_text TYPE string.\nDATA lv_x1 TYPE xstring.\nDATA lv_x2 TYPE xstring.\nDATA lv_x TYPE xstring.\nCONCATENATE lv_a lv_b INTO lv_text.\nCONCATENATE lv_a lv_b INTO lv_text IN CHARACTER MODE.\nCONCATENATE lv_x1 lv_x2 INTO lv_x.\nCONCATENATE lv_x1 lv_x2 INTO lv_x IN BYTE MODE.\n"
+}
